@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+
+.top-navbar {
+  padding: 20px;
+  height: 75px;
+}
+
+/* Top Left Box */
+
+.left-box {
+  float: left;
+}
+
+.left-box a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #2d2d2d;
+}
+
+.left-box a:hover {
+  text-decoration: underline;
+}
+
+/* Top Right Box */
+
+.right-box {
+  float: right;
+}
+
+.right-box ul {
+  display: flex;
+  list-style: none;
+}
+
+.right-box ul li {
+  margin-left: 20px;
+}
+
+.right-box ul li a {
+  text-decoration: none;
+  color: #2d2d2d;
+}
+
+.right-box ul li a:hover {
+  text-decoration: underline;
+}
+
+.right-box ul li input {
+  padding: 5px 12px;
+  background-color:#4285f4;
+  border: #4285f4;
+  color: #f1f1f1;
+}
+
+/* Center */
+
+.logo-box {
+  margin: 50px 0;
+}
+
+/* Search Box */
+
+.search-box {
+  width: 500px;
+  height: 44px;
+  border-radius: 22px;
+  border: 1px solid lightgray;
+  margin: 0 auto;
+  display: flex;
+}
+
+#searchsvg {
+  padding-top: 10px; 
+  padding-left: 10px; 
+}
+
+#searchbar input {
+  width: 430px;
+  height: 40px;
+  border-radius: 10px;
+  border:none;
+}
+
+#searchbar input:focus{
+  outline: none;
+}
+
+#voicelogo {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+/* Button Wrapper */
+
+.buttonWrapper {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px;
+  border: 1px solid #f2f2f2;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  background-color:#f2f2f2;
+  height: 40px;
+  position: fixed;  
+  bottom: 0px;
+  left: 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer ul {
+  display: flex;
+  list-style: none;
+}
+
+.footer ul li {
+  margin-right: 10px;
+}
+
+.footerlist1 {
+  float: left;
+  padding: 10px 0 0 10px;
+}
+
+.footerlist2{
+  float: right;
+  padding: 10px 10px 0 0;
+}
